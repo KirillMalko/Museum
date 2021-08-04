@@ -4,7 +4,7 @@ const counter = function () {
     btns.forEach(btn => {
             btn.addEventListener('click', function () {
                     const direction = this.dataset.direction;
-                    const inp = this.parentElement.querySelector('.display');
+                    const inp = this.parentElement.querySelector('.amount-item');
                     const currentValue = +inp.value;
                     let newValue;
 

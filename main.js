@@ -19,3 +19,4 @@ const counter = function () {
     )
 }
 counter();
+
